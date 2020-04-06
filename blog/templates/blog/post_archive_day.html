@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Post Archives for {% day|date:"N d, Y" %}</h1>
+
+    <h1>Post Archives for {{ day|date:"N d, Y" }}</h1>
 
 <div>
     <ul>
@@ -15,5 +9,3 @@
         {% endfor %}
     </ul>
 </div>
-</body>
-</html>
